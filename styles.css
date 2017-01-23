@@ -1,8 +1,9 @@
 body {
-    background-color: rgb(200,200,200);
     color: rgb(0,0,0);
     font-family: "Open Sans", sans-serif;
     text-align: center;
+    background-image: url("http://freedomreply.com/wp-content/uploads/2014/07/Large-Background-Images-Web-Design-1.jpg");
+    background-size: 100%;
 }
 
 #content {
@@ -12,10 +13,13 @@ body {
 }
 
 header {
-	
+    color: #FFD700;
+    text-align: center;
+    font-family: Haettenschweiler;
+    font-size: 200%;
 }
 
 footer {
-	font-style: italic;
-	font-size: 90%;
+    font-style: italic;
+    font-size: 90%;
 }
