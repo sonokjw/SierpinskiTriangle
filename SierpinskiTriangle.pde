@@ -1,24 +1,25 @@
 int r, g, b;
+int length = 0;
 
 public void setup()
 {
 	size(500, 500);
 	background(0);
-}
-public void draw()
-{
 	sierpinski(50, 450, 400);
 }
-public void mouseDragged()//optional
+public void draw()
+{ 
+	
+}
+
+public void mouseClicked()
 {
-	int length = 0;
 	r = (int)(Math.random()*250);
 	g = (int)(Math.random()*250);
 	b = (int)(Math.random()*250);
 	background(r, g, b);
-	sierpinski(mouseX, mouseY, length);
-	length+=5;
 }
+
 public void sierpinski(int x, int y, int len) 
 {
 	if(len < 20)
