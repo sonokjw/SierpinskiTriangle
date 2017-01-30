@@ -18,6 +18,7 @@ public void mouseClicked()
 	g = (int)(Math.random()*250);
 	b = (int)(Math.random()*250);
 	background(r, g, b);
+	sierpinski(50, 450, 400);
 }
 
 public void sierpinski(int x, int y, int len) 
